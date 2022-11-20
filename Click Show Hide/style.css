@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn button {
+    padding: 10px;
+    color: #fff;
+    background-color: #f00;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #999;
+    cursor: pointer;
+}
+
+.img {
+    display: flex;
+    height: 100vh;
+}
+
+.img img {
+    box-shadow: 5px 5px 10px #999;
+    margin: auto;
+}
+
+/* .img img {
+    display: none;
+    display: inline;
+} */

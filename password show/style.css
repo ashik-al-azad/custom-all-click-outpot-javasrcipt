@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span.pas {
+    position: relative;
+}
+
+span.pas input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+span.pas button i {
+    position: absolute !important;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+}

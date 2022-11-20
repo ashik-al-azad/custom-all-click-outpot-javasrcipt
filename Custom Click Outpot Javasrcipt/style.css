@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-post {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 5px auto;
+}
+
+textarea {
+    border: 1px solid #f15;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    margin: 5px auto;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #f15;
+    text-transform: capitalize;
+    transition: .3s;
+    display: block;
+}
+
+button:hover {
+    border: 1px solid #999;
+    background-color: #f15;
+    color: #fff;
+}
+
+#posts {
+    display: block;
+    color: #f15;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
