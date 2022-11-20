@@ -1,0 +1,1 @@
+# custom-all-click-outpot-javasrcipt
